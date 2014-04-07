@@ -1,0 +1,20 @@
+What is Vim	1
+Who wrote Vim	5
+What are some of the improvements of Vim over Vi	8
+Is Vim free	11
+Where can I learn more about Vim	13
+How do I increase the width of a Vim window	19
+How do I zoom into or out of a window in vim	26
+How do I search for whole words in a file in vim	33
+How do I do rectangular block copying in vim	37
+How do I change the background and foreground colors used by Vim	41
+How to install vim	55
+How to remove vim	57
+Where is .vimrc file of vim	60
+How to copy or paste in vim	62
+How do I configure Vim in a simple way	64
+How do I display the line numbers of all the lines in a file in vim	70
+How do I enable automatic indentation for C/C++ files in vim	75
+When I use my arrow keys, Vim changes modes, inserts weird characters in my document but doesn't move the cursor properly. What's going on in vim	86
+Where I get keyboard shorcuts in vim	101
+Is there a way to make Vim auto-magically break lines in vim	103

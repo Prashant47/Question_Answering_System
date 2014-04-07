@@ -1,0 +1,21 @@
+Q-1 What is Vim?
+Q-2 Who wrote Vim?
+Q-3 What are some of the improvements of Vim over Vi?
+Q-4 Is Vim free?
+Q-5 Where can I learn more about Vim?
+Q-6 How do I increase the width of a Vim window?
+Q-7 How do I zoom into or out of a window?
+Q-8 How do I search for whole words in a file?
+Q-9 How do I do rectangular block copying?
+Q-10 How do I change the background and foreground colors used by Vim?
+Q-11 How to install vim?
+Q-12 How to remove vim?
+Q-13 Where is .vimrc file?
+Q-14 How to copy or paste in vim?
+Q-15 How do I configure Vim in a simple way?
+Q-16 How do I display the line numbers of all the lines in a file?
+Q-17 How do I enable automatic indentation for C/C++ files?
+Q-18 When I use my arrow keys, Vim changes modes, inserts weird characters
+     in my document but doesn't move the cursor properly. What's going on?
+Q-19 Where I get keyboard shorcuts in vim?
+Q-20 Is there a way to make Vim auto-magically break lines? 

@@ -1,0 +1,22 @@
+1	2	2 
+Gedit is a small and lightweight text editor for the GNOME Desktop.
+2	4	4 
+Select the 'File' menu and then you will have 'Print' option, in the dialog box of print you will have options of printing and page setup.
+3	6	7
+If you move cursor to left or right hand upper corner, then close button will popup , pressing it will close gedit.
+	OR  you can use 'ctrl + Q' or 'ctrl + W'.
+4	9	9 
+Select the 'Edit' menu and go to preferences, in its dialog box you will get the 'view' tab, in this tab you can enable display line numbers.
+5	11	11
+Select the 'Edit' menu and go to preferences, in its dialog box you will get the 'Editor' tab, in this by changing the value in box of tab width you can change the tab width.
+6	13	13
+Select the 'Edit' menu and go to preferences, in its dialog box you will get the 'Editor' tab, in this by ticking the box in front of 'Enable automatic indentation', it can be activated.
+7	15	15
+Select the 'Edit' menu and go to preferences, in its dialog box you will get the 'Editor' tab, in this tab under the option of 'File saving' you can autosave file after certain time.
+8	17	17
+Select the 'Edit' menu and go to preferences, in its dialog box you will get the 'Fonts & Colors' tab, in this at 'Font' option you can change font by unticking the system fixed font box.
+9	19	19
+Select the 'Edit' menu and go to preferences, in its dialog box you will get the 'Plugins' tab, by scrolling you will get the plugin of spell checker, by ticking the box before 'Spell checker' you can enable spell checking.
+10	21	21
+By pressing 'F11' key on keyboard while gedit is open you can fullscreen the gedit.
+

@@ -1,0 +1,51 @@
+1	2	2	
+VideoLAN is an Open Source team and a community that develop and support video projects. VLC is the media player.VLC media player (initially VideoLAN Client) is a highly portable multimedia player for various audio and video formats (MPEG, DivX/Xvid, Ogg, and many more) as well as DVDs, VCDs, and various streaming protocols.
+2	4	5
+In the menu bar of VLC, go to 'Media', it has the first option of opening file, it will open the file browser from where you can select file to play.
+By right clicking the file to be played and choosing the 'open with' option as VLC you can play the file. 
+3	7	9
+The track slider is on top of the control buttons. It shows the progress of playing of the media file. 
+You can drag the track slider left to rewind or right to forward the track being played.
+Two timers at the left and righ ends of the track slider show the current playing position (left) and the total time (right) of the current track. 
+4	11	13
+The volume control is located in the bottom right corner of the window.The small speaker icon is a button that mutes or un-mutes the sound. 
+The triangle to the right is a slider that shows the current playback volume.
+Clicking this slider modifies the volume.The playback volume is also displayed as a percentage number on top of this slider.
+5	15	18
+If VLC has detected any sort of subtitles available, you will be able to turn them on under the menu:
+	 Video->Subtitles track->Track 1.
+OR 
+You can right click mouse on vlc screen , it has the subtitles option from where you can enable the subtitles that vlc has detected, if it has not detected it will give option of selecting subtitles from file.
+6	20	20	
+If you have a CD-DA (audio CD), SVCD, or VCD packaged inside a CD-image, in some cases VLC media player can play this without you having to mount it or extract it. You can simply choose "open file" and pick the CD-image.
+7	22	32
+Using VLC, you can override the source aspect ratio. This is available both as a command line option and as an option in the Preference dialog in the graphical interface. The aspect ratio can be specified both in ratio format (16:9) or as a decimal number (1.33).
+	Command Line :
+	When invoking VLC from the command line, use the option --aspect-ratio. For instance,
+	vlc --aspect-ratio 1:5
+	Graphical Interface :
+	If using the graphical interface, the setting is In the Video section of the Preferences dialog.You may specify the aspect ratio in the field labeled "Source aspect ratio."
+Here is a list of the more common aspect ratios.
+    Fullscreen: 1.33 or 4:3
+    Widescreen: 1.78 or 16:9
+    Typical DVD: 1.85
+    Cinemascope: 2.35 
+8	34	35
+Tools -> Effects and Filters (Ctrl+E) then Video Effects -> Crop, and set the values. If you want to crop local video with command-line/terminal parameters, use 
+   >>	vlc input --vout-filter=crop --crop-geometry=120x120+10+10
+9	37	38
+You must also go to Tools -> Preferences -> (set "Show settings" to "All") -> Advanced, and uncheck
+	 "One instance when started from file".
+10	40	40
+Go to status bar, in the right bottom corner it has playback speed showing as '1.00x' by clicking on it you can chane the playback speed.
+11	42	43
+The example under this show how to extract audio from a working video file like file.ts in command line.
+vlc file.ts --no-sout-video --sout '#std{mux=raw,dst=file.mp3}'
+12	45	45
+VLC media player can exit once all items have finished playing, this can done by enabling 'Play and exit' in the 'Playlist' section under 'Preferences'.  
+13	47	47
+To set your media player as default media player, right click on the video file in the properties go to the tab 'Open with' in this tab select vlc as player by clicking on it, at the bottom of the window will have 'set as default' button select it and you can set your default media player for that file format.
+14	49	49
+'Ctrl + Q' or clicking on close button in the right top corner.
+15	51	51
+In the menu bar of vlc, go to 'Tools' in its menu it has the first option of 'Effects and Filters' by clicking on it you can go to effects window where you can change effects in audio as well as video.

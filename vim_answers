@@ -1,0 +1,97 @@
+1	2	4
+Vim stands for Vi IMproved. It used to be Vi IMitation, but there are so many improvements that a name change was appropriate. Vim is a text editor which includes almost all the commands from the Unix program "Vi" and a lot of new ones. All commands can be given with the keyboard. This has the advantage that you can keep your fingers on the keyboard and your eyes on the screen. For those who want it, there is mouse support and a GUI version with scrollbars and menus.
+Vim is an editor, not a word processor. A word processor is used mainly to do layout of text. This means positioning it, changing the way it appears on output. More often than not, the final document is meant to be printed or typeset or what have you, in order to present it in a pleasing manner to others. Examples of word processors are Microsoft Word, WordPerfect, FrameMaker, and OpenOffice Writer.
+An editor is simply for entering text. Any typesetting or laying out of the document is secondary. With an editor, one's main concern is entering text, not making the text look good. Examples of editors other than Vim and Vi are Emacs, Crisp, Brief, TextMate and xedit.  And Notepad.
+2	6	7
+Most of Vim was written by Bram Moolenar, with contributions from too many people to mention here. See ":h credits" for a complete list.
+Vim is based on Stevie, worked on by Tim Thompson, Tony Andrews and G.R. (Fred) Walter.
+3	9	10
+A short summary of the improvements of Vim over vi is listed below.  The list shows that Vim is a thoroughly modern and feature-packed editor.
+Standard features of modern editors are implemented, and there is an equal emphasis on general power-user features and features for programmers. 
+4	12	12
+Vim is Charityware. There are no restrictions on using or copying Vim, but the author encourages you to make a donation to charity. A document explaining how to do so is included in the distribution. 
+5	14	18
+You can post your Vim questions to the vim@vim.org mailing list.  You can post your Vim development related questions to the vim-dev@vim.org mailing list. Vim does not have a newsgroup of its own. But the appropriate newsgroup to post to is comp.editors.
+"VimOnline" is a web page that serves as a de facto homepage for vim, although the main purpose of it is to gather tips and scripts from everywhere.  Get involved!  The URL is vim.sourceforge.net or vim.sf.net.
+Finally, read the Vi FAQ: 
+
+    http://www.faqs.org/faqs/editor-faq/vi/part1/index.html 
+6	20	25
+You can increase the width of a Vim window using one of the following
+commands: 
+    :vert resize +N
+    :vert resize -N
+    :vert resize N
+You can also use CTRL-W < or CTRL-W > or CTRL-W | commands.
+7	27	32
+You can zoom into a window (close all the windows except the current window) using the "CTRL-W o" command or the ":only" ex command.
+You can use the "CTRL-W _" command or the ":resize" ex command to increase the current window height to the highest possible without closing other
+windows.
+You can use the "CTRL-W |" command or the ":vertical resize" ex command to increase the current window width to the highest possible without closing
+other windows.
+You can use the "CTRL-W =" command to make the height and width of all the windows equal. 
+8	34	36
+You can search for whole words in a file using the \< and \> atoms. For example: 
+    /\<myword\>
+The \< atom matches the beginning of the word and the \> atom matches the end of the word.
+9	38	40
+You can do rectangular block copying in Vim using the blockwise visual mode. To start blockwise visual mode use the CTRL-V key. Move the cursor using any of the motion commands and then use the y operator to yank to usually selected text.
+If CTRL-V does not work as expected, it may have been remapped to CTRL-Q by the mswin.vim script which is often sourced by a vimrc on Windows machines
+to mimic some common short cuts from other programs.
+10	42	54
+Vim uses the "Normal" highlight group for the background and foreground colors. To change the foreground/background colors, you have to modify the "Normal" highlight group. For example, to set the background color to blue and foreground color to white, you can use 
+
+    :highlight Normal ctermbg=blue ctermfg=white guibg=blue guifg=white
+
+If you are using the Motif or the Athena version of the GUI Vim, then you can modify the foreground and background resource names in the .Xdefaults
+files to change the colors: 
+    Vim.foreground:     Black
+    Vim.backround:      Wheat
+You can also use the "-foreground" and "-background" command-line arguments
+to specify the foreground and background colors. These arguments are
+supported only in the Motif or Athena versions: 
+
+    $ gvim -foreground Black -background Wheat
+11	56	56
+You can install by command sudo apt-get install vim or by ubuntu software center
+12	58	59
+for just remove vim sudo apt-get remove vim 
+for remove everything use sudo apt-get purge vim
+13	61	61
+It's located in /etc/vim/vimrc 
+14	63	63
+You can use shell options i.e for copy ctrl+shift+c and paste ctrl+shift+v 
+15	65	69
+You can use the ":options" command to open the Vim option window: 
+    :options
+This window can be used for viewing and setting all the options.
+For more information, read 
+    :options
+16	71	74
+You can set the 'number' option to display the line numbers for all the lines. 
+    :set number
+For more information, read 
+    'number'
+17	76	85
+You can enable file-type based indentation using: 
+    :filetype indent on
+
+If you want to only enable automatic C indentation, then use: 
+    :set cindent
+
+For more information, read 
+    'cindent'
+    C-indenting
+    filetype
+18	87	87
+Go to edit >> keyboard shortcuts and configure all shortcuts.
+19	89	97
+Yes. Set the 'textwidth' option to the preferred length for a line. Then
+Vim will auto-magically break the newly entered lines. For example: 
+    :set textwidth=75
+For more information, read : 
+    'textwidth'
+    ins-textwidth
+    'formatoptions'
+    fo-table
+    formatting
