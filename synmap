@@ -1,0 +1,40 @@
+n		CD 	cardinal number
+n		EX 	existential there
+n		NN 	noun, singular or mass
+n		NNS 	noun plural
+n		NNP 	proper noun, singular	
+n		NNPS 	proper noun, plural
+n		PDT 	predeterminer
+n		POS 	possessive ending
+n		PRP 	personal pronoun
+n		PRP$ 	personal pronoun
+n		WP 	wh-pronoun
+n		WP$ 	possessive wh-pronoun
+n		MD 	modal
+v		VB 	verb, base form
+n		VBD 	verb, past tense
+v		VBG 	verb, gerund/present participle
+v		VBN 	verb, past participle
+v		VBP 	verb, sing. present, non-3d
+v		VBZ 	verb, 3rd person sing. present
+v		MD 	modal
+v		JJ 	adjective
+a		JJR 	adjective, comparative
+a		JJS 	adjective, superlative
+a		CD 	cardinal number
+r		RB 	adverb
+r		RBR 	adverb, comparative
+r		RBS 	adverb, superlative
+r		EX 	existential there
+r		IN 	preposition/subordinating conjunction
+r		JJ 	adjective	
+s		IN 	preposition/subordinating conjunction
+s		JJ 	adjective
+s		JJR 	adjective, comparative
+s		JJS 	adjective, superlative
+s		PDT 	predeterminer
+n		WRB	synmap
+n		TO	synmap
+n		RP	synmap
+n		DT	synmap
+n		CC	synmap
