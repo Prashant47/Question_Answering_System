@@ -1,0 +1,18 @@
+====================Install Guide================
+
+To install this pacakge first run install.sh script in given folder
+
+./install.sh
+
+it will install necessary packages required for question answering system 
+it includes wordnet, python, python, python-nltk and nltk packages.
+it will take certain time for installation especially nltk pacakges they are lot more.
+
+after that run command run as 
+./run
+
+you will get box input dialog for waiting to take input for the question.
+input the question that have same context given in the database question
+the system will find the similaraties between them & give answer.
+To cheack the database questions refer to individual file of vim, vlc & gedit 
+questions.
